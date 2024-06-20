@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/normailze.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <!-- Start Setting Box  -->
+    <div class="settings-box">
+      <i class="icon-settings fa fa-gear"></i>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="orange"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Rwndom Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Show</span>
+            <span class="no" data-display="hide">Hide</span>
+          </div>
+        </div>
+        <button class="reset-option">Reset Option</button>
+      </div>
+    </div>
+    <!-- End Setting Box  -->
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About US</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Our Features</div>
+      </div>
+
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+    <!-- Start Landing Page  -->
+    <div class="landing-page">
+      <div class="overlay">
+        <div class="container">
+          <div class="header-area">
+            <div class="logo">MyPportfolio</div>
+            <div class="links-container">
+              <ul class="links">
+                <li>
+                  <a class="active" href="#" data-section=".about-us">About</a>
+                </li>
+                <li><a href="#" data-section=".skills">Skills</a></li>
+                <li><a href="#" data-section=".gallery">Gallery</a></li>
+                <li><a href="#" data-section=".timeline">Timeline </a></li>
+                <li><a href="#" data-section=".features">Features</a></li>
+                <li><a href="#" data-section=".contact">Contact Us</a></li>
+              </ul>
+              <!-- Start and hide Burgger-icon -->
+              <div class="toggle-menu">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+              </div>
+              <!-- End and hide Burgger-icon -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="introuduction-text">
+        <h1>Hello,I am<span>Ahmed Sabry Ahmed</span></h1>
+        <h3>Structural Design<span>Engineer</span></h3>
+      </div>
+    </div>
+
+    <!-- End Landing Page  -->
+
+    <!-- Start About US -->
+
+    <div class="container">
+      <h2 class="h2">About Me</h2>
+      <div class="about-us">
+        <div class="info-box">
+          <p>
+            I am a design and estimating engineer for PEB and steel Structures,
+            presenting this resume to gain an experience and a full time job
+            considering my work experience, educational background and computer
+            skills .
+          </p>
+        </div>
+        <div class="image-box">
+          <img
+            decoding="async"
+            width="1024"
+            height="823"
+            src="https://cloudnativebasecamp.com/wp-content/uploads/2024/05/05_24_front.webp"
+            alt=""
+            class="wp-image-7840"
+            srcset="
+              https://cloudnativebasecamp.com/wp-content/uploads/2024/05/05_24_front.webp         1024w,
+              https://cloudnativebasecamp.com/wp-content/uploads/2024/05/05_24_front-300x241.webp  300w,
+              https://cloudnativebasecamp.com/wp-content/uploads/2024/05/05_24_front-768x617.webp  768w,
+              https://cloudnativebasecamp.com/wp-content/uploads/2024/05/05_24_front-600x482.webp  600w
+            "
+            sizes="(max-width: 1024px) 100vw, 1024px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- End About US -->
+    <!-- Start Our Skills -->
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">Autocad</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Staad pro</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">SAP2000</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Tekla</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Idea statica</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Ram Connection</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MBS</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Etabs</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MS office</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CFS</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">HILTI & Spit</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Our Skills -->
+
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2 class="h2">Our Gallery</h2>
+        <div class="images-box">
+          <img src="images/1.png" alt="Image One" />
+          <img src="images/2.png" alt="Image Two" />
+          <img src="images/3.png" alt="Image Three" />
+          <img src="images/4.jpg" alt="Image Four" />
+          <img src="images/5.jpg" alt="Image Five" />
+          <img src="images/6.jpg" alt="" />
+          <img src="images/7.jpg" alt="" />
+          <img src="images/8.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- End Gallery -->
+    <!-- Start TimeLine -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="left">
+            <div class="content">
+              <h3>Experiences</h3>
+
+              <h4>
+                12 / 2023 - Until now <br />
+                Design and Estimating Engineer
+              </h4>
+              <p>
+                Arabian International Company AIC | Nasr City, Egypt working as
+                a design engineer for PEB and steel structures preparing full
+                approval design such as Egyptian, American and MBMA code. with
+                different code
+              </p>
+              <br />
+              <h4>
+                11 / 2022 - 12 / 2023 <br />
+                Design and Estimating Engineer
+              </h4>
+              <p>
+                Jadeela Steel Industrials | Sheikh Zayed City, Egypt worked as a
+                design and estimating engineer for PEB and steel structure,
+                preparing full approval design and estimation package, working
+                with different codes such as Egyptian, American and MBMA code.
+              </p>
+              <br />
+              <h4>
+                07 /2021 - 11 / 2022 Design and Estimati <br />
+                Design and Estimating Engineer
+              </h4>
+              <p>
+                ROOTS Steel International | 6th of October, Egypt worked as a
+                design and estimating engineer for PEB and steel structure,
+                preparing approval design and estimation package, working with
+                different codes such as Egyptian, American and MBMA code.
+              </p>
+              <br />
+              <h4>
+                05 / 2020 - 06 / 2021 <br />
+                Site Technical Office Engineer
+              </h4>
+              <p>
+                Engineering Division of the Armed Forces | Ismailia, Egypt
+                worked as technical office engineer for first 6 months of
+                military service preparing drawings and quantities. worked as
+                site engineer for last 6 months in Al-Arish governorate,
+                supervising on construction of a fuel station, shades, stores
+                and Soldiers' dormitory.
+              </p>
+              <br />
+              <h4>
+                07 / 2019 - 05 / 2020 <br />
+                Structural design Engineer
+              </h4>
+              <p>
+                Kyan company | Zagazig, Egypt worked as structural engineer
+                preparing drawings and making analysis model .
+              </p>
+              <br />
+              <h4>
+                2017 - 2018 <br />
+                Site Engineer
+              </h4>
+              <p>
+                Mukhtar Ibrahim Contracting Company | Zagazig, Egypt , trained
+                as a site engineer during summer training while implementing the
+                Shorweda Bridge.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Education</h3>
+
+              <p>
+                Bachelor's Degree of Civil Engineering <br />
+                2014 - 2019 <br />
+                Zagazig University <br />
+                Grade : V.Good <br />
+                Graduation Project : Steel structures <br />
+                Project grade : Excellent
+              </p>
+            </div>
+          </div>
+          <div class="left">
+            <div class="content">
+              <h3>LANGUAGES</h3>
+              <p>
+                Arabic (Native) | English (Writing: Very Good - Reading: Very
+                Good - Speaking: Good)
+              </p>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Personal Data</h3>
+              <p>
+                Military status : Completed <br />
+                Nationality : Egyptian <br />
+                Marital status : Single <br />
+                Date of birth : 01/09/1996
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End TimeLine -->
+    <!-- Start Features -->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="images/icon-4.png" alt="" />
+          <h2>Professional design</h2>
+          <h4>Tell us your idea</h4>
+          <p>
+            High communications Skills & Self motivation & Patient & the ability
+            to work in team.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/icon-7.png" alt="" />
+          <h2>Using the latest technology</h2>
+          <h4>We will do all work</h4>
+          <p>
+            Problem solving skills & analytical skills & adaptability & time
+            management
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/icon-6.png" alt="" />
+          <h2>On time delivery</h2>
+          <h4>Your product is worldwide</h4>
+
+          <p>
+            work ethic & Creative design & Flexibility & work under pressure
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="" id="form">
+          <div class="left">
+            <input
+              type="text"
+              placeholder="Your Name"
+              name="your_name"
+              id="your_name"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Your Phone"
+              name="your_phone"
+              id="your_phone"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              name="your_email"
+              id="your_email"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              name="subject"
+              id="subject"
+            />
+          </div>
+          <div class="right">
+            <textarea
+              name="your_message"
+              id="your_message"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" id="button" value="Send Email" />
+          </div>
+        </form>
+        <!-- Start icon social -->
+        <!-- End icon social -->
+        <div class="social">
+          <h4>Available on social</h4>
+          <div class="icon-social">
+            <a href="https://wa.me/201123744831" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://wa.me/201010521180" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ahmed-sabry-a8256318a/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i
+            ></a>
+
+            <a href="mailto:ahmedsabry.a@hotmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+        ></script>
+
+        <script type="text/javascript">
+          emailjs.init("l0zM_uu1cUWR3cz1f");
+        </script>
+      </div>
+    </div>
+
+    <!-- End Contact Us -->
+    <!-- Start Arrow -->
+    <div class="arrow">
+      <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <!-- End Arrow -->
+    <!-- Start Footer -->
+    <footer>
+      <h2>By Eng-Ahmed Sabry</h2>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
